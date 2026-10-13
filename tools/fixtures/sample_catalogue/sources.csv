@@ -1,0 +1,7 @@
+source_id,source_type,title,author_org,date,path_or_url,locator_scheme,derived_from,language,respondent_code,collected_by,anonymised,verifiability,reliability_notes
+SAMPLE-INT-01,interview,Synthetic interview transcript 01,Sample field team,2026-01-10,https://example.org/synthetic/int-01,line,FW-SAMPLE-1,en,"OP-01, gate operator",field team A,yes,team,Synthetic example
+SAMPLE-INT-07,interview,Synthetic interview transcript 07,Sample field team,2026-01-12,https://example.org/synthetic/int-07,line,FW-SAMPLE-1,en,"FA-07, tail-end farmer",field team B,yes,team,Synthetic example
+SAMPLE-FGD-02,fgd,Synthetic focus group notes 02,Sample field team,2026-01-13,https://example.org/synthetic/fgd-02,page,FW-SAMPLE-1,en,,field team A,yes,team,Synthetic example
+SAMPLE-ADM-02,admin-record,Synthetic scheme operation record,Sample basin agency,2025-11,https://example.org/synthetic/adm-02,page,,en,,desk team,yes,open,Synthetic example
+SAMPLE-INT-12,interview,Synthetic interview transcript 12,Sample field team,2026-01-15,https://example.org/synthetic/int-12,line,FW-SAMPLE-1,en,"ST-12, customary steward",field team B,yes,restricted,Consent limited to aggregate reporting (synthetic example)
+SAMPLE-OBS-03,observation,Synthetic site observation 03,Sample field team,2026-01-15,https://example.org/synthetic/obs-03,paragraph,FW-SAMPLE-1,en,,field team B,yes,team,Synthetic example

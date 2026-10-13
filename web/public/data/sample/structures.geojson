@@ -1,0 +1,129 @@
+{
+ "type": "FeatureCollection",
+ "name": "structures",
+ "metadata": {
+  "note": "Synthetic example, not real data. Fictional Sample River Basin near Null Island."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.052,
+     0.058
+    ]
+   },
+   "properties": {
+    "name": "Sample Weir",
+    "type": "weir",
+    "description": "Diversion weir on the Sample River feeding the main canal."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.046,
+     0.054
+    ]
+   },
+   "properties": {
+    "name": "Main intake gate",
+    "type": "gate",
+    "description": "Gate controlling flow into the main canal."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.004,
+     0.034
+    ]
+   },
+   "properties": {
+    "name": "Secondary gate S1",
+    "type": "gate",
+    "description": "Gate at the head of secondary canal S1."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.052,
+     0.004
+    ]
+   },
+   "properties": {
+    "name": "Secondary gate S2",
+    "type": "gate",
+    "description": "Gate at the head of secondary canal S2."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.098,
+     -0.052
+    ]
+   },
+   "properties": {
+    "name": "Tail-end drain outlet",
+    "type": "outlet",
+    "description": "Where the main canal ends in a drain."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.09,
+     0.088
+    ]
+   },
+   "properties": {
+    "name": "Ridge Spring",
+    "type": "spring",
+    "description": "Spring feeding the Ridge Spring channel."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.03,
+     0.036
+    ]
+   },
+   "properties": {
+    "name": "Village storage tank",
+    "type": "tank",
+    "description": "Storage tank of the Ardena piped supply."
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.01,
+     -0.02
+    ]
+   },
+   "properties": {
+    "name": "Town water intake",
+    "type": "intake",
+    "description": "Utility intake on the Sample River."
+   }
+  }
+ ]
+}

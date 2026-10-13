@@ -1,0 +1,165 @@
+{
+  "lang": "en",
+  "name": "Water Tenure Storymap",
+  "shortName": "WATER TENURE",
+  "description": "Who uses which water, and on what terms, in the fictional Sample River Basin: an interactive map and story. Synthetic example, not real data.",
+  "banner": "Synthetic example, not real data. The Sample River Basin, its villages and its records are invented. Replace the files in web/content/ with your own.",
+  "logo": {
+    "src": "/media/sample/logo.svg",
+    "alt": "Your organization (placeholder logo)",
+    "width": 300,
+    "height": 64
+  },
+  "colors": {
+    "brand": "#0d9ed3",
+    "accent": "#ef8e57",
+    "footer": "#25a8d7"
+  },
+  "nav": [
+    { "label": "Home", "href": "/", "icon": "home" },
+    { "label": "Gallery", "href": "/gallery" },
+    { "label": "Typology", "href": "/typology" },
+    { "label": "Story map", "href": "/story" },
+    { "label": "About", "href": "/about" }
+  ],
+  "home": {
+    "hero": [
+      { "src": "/media/sample/hero-basin.svg", "alt": "Placeholder illustration of rice fields in the Sample River Basin" },
+      { "src": "/media/sample/hero-weir.svg", "alt": "Placeholder illustration of the Sample Weir" }
+    ],
+    "mapHeading": "Interactive map",
+    "introHeading": "Water tenure in the Sample River Basin",
+    "intro": "Water tenure is the set of relationships, formal or not, through which people and institutions gain, hold and lose access to water. In the fictional Sample River Basin, a basin agency operates a weir and a main canal, a registered water user association rotates a canal share, tail-end farmers rent pumps, an upland hamlet follows a customary steward at its spring, and households fish and cut reeds where no rule reaches.\n\nThe map shows these arrangements as tenure records classified on the FAO water tenure typology. Each record carries a confidence grade and source codes. Records marked as sensitive are shown at a deliberately displaced position.\n\n**Everything on this site is a synthetic example, not real data.**",
+    "introLink": { "label": "Read more", "href": "/about" },
+    "galleryCount": 4,
+    "galleryLink": { "label": "More pictures", "href": "/gallery" }
+  },
+  "map": {
+    "initialView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.4 },
+    "defaultBasemap": "osm",
+    "basemaps": [
+      {
+        "id": "osm",
+        "name": "OpenStreetMap",
+        "url": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "attribution": "&copy; OpenStreetMap contributors"
+      },
+      {
+        "id": "opentopomap",
+        "name": "OpenTopoMap",
+        "url": "https://a.tile.opentopomap.org/{z}/{x}/{y}.png",
+        "attribution": "&copy; OpenTopoMap (CC-BY-SA), OpenStreetMap contributors"
+      },
+      {
+        "id": "esri-imagery",
+        "name": "Esri World Imagery",
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        "attribution": "&copy; Esri, Maxar, Earthstar Geographics"
+      },
+      {
+        "id": "carto-positron",
+        "name": "Carto Positron",
+        "url": "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+        "attribution": "&copy; CARTO, OpenStreetMap contributors"
+      },
+      {
+        "id": "carto-voyager",
+        "name": "Carto Voyager",
+        "url": "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+        "attribution": "&copy; CARTO, OpenStreetMap contributors"
+      },
+      {
+        "id": "openfreemap-liberty",
+        "name": "OpenFreeMap Liberty",
+        "url": "https://tiles.openfreemap.org/styles/liberty",
+        "attribution": "&copy; OpenFreeMap, OpenMapTiles, OpenStreetMap contributors"
+      }
+    ]
+  },
+  "api": {
+    "enabled": true,
+    "baseUrl": ""
+  },
+  "stories": {
+    "breadcrumb": "Story map",
+    "heading": "Stories"
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "pageSize": 12
+  },
+  "typology": {
+    "heading": "Water tenure typology",
+    "intro": "The FAO water tenure typology as used by this deployment. Types analyzed in this assessment show their type-level legal security (what the law provides) and perceived security (what holders experience). The other FAO categories are listed for completeness and can still be used for records. The ratings shown here are synthetic sample values."
+  },
+  "footer": {
+    "orgName": "Your Organization",
+    "lines": ["Street address", "City, postcode, Country"],
+    "email": "contact@example.org",
+    "phone": "",
+    "links": [
+      { "label": "Source code", "url": "https://github.com/movanet/water-tenure-storymap" }
+    ],
+    "copyright": "Copyright 2026 Your Organization. Sample content is synthetic."
+  },
+  "labels": {
+    "home": "Home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "close": "Close",
+    "layers": "Layers",
+    "layersTitle": "Data layers",
+    "layersHint": "Toggle visibility and adjust opacity",
+    "opacity": "Opacity",
+    "layersVisible": "{visible} of {total} layers visible",
+    "basemap": "Basemap",
+    "copyView": "Copy view",
+    "copied": "Copied",
+    "copyViewHint": "Copy a shareable link to this view",
+    "tenure": "Tenure",
+    "tenureFilterTitle": "Tenure records filter",
+    "recordsMatch": "{count} matching records",
+    "clearAll": "Clear all",
+    "colorBy": "Color markers by",
+    "colorByType": "Tenure type",
+    "colorByGap": "Security gap",
+    "gapHint": "Fill = legal security, ring = perceived security (light 1 to dark 4; gray = not analyzed or not rated).",
+    "analyzedTypes": "Tenure types analyzed",
+    "moreTypes": "More FAO framework categories",
+    "useType": "Use type",
+    "legalSecurity": "Legal security",
+    "perceivedSecurity": "Perceived security",
+    "village": "Village",
+    "villagePlaceholder": "Type a village name",
+    "add": "Add",
+    "scheme": "Irrigation scheme",
+    "noScheme": "No scheme",
+    "season": "Season",
+    "confidence": "Confidence",
+    "use": "Use",
+    "actor": "Actor",
+    "fuzzedNote": "Location generalized to protect a sensitive arrangement.",
+    "readInStory": "Read in story",
+    "source": "Source",
+    "fieldPhoto": "Field photo",
+    "openImage": "Open full image",
+    "linkedPhoto": "Linked field photo",
+    "search": "Search",
+    "openStory": "Open",
+    "copyLink": "Copy link",
+    "itemsFound": "{count} items found",
+    "backToStories": "Back to stories",
+    "enlargeImage": "Enlarge image",
+    "firstPage": "First page",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "lastPage": "Last page",
+    "securityScale": "Security scale",
+    "viewOnMap": "View on map",
+    "faoRow": "FAO framework row",
+    "notAnalyzed": "Not analyzed in this assessment",
+    "noStories": "No stories match your search.",
+    "previousPicture": "Previous picture",
+    "nextPicture": "Next picture"
+  }
+}

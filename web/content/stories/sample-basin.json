@@ -1,0 +1,138 @@
+{
+  "id": "sample-basin",
+  "order": 1,
+  "title": "Who holds the water in the Sample River Basin?",
+  "subtitle": "A walk from the weir to the tail end and up to the spring",
+  "author": "Sample field team",
+  "date": "2026",
+  "thumbnail": "/media/sample/hero-basin.svg",
+  "notice": "Synthetic example, not real data. The basin, the villages, the people and the sources in this story are invented to show how the storymap works.",
+  "mapView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.4 },
+  "chapters": [
+    {
+      "id": "overview",
+      "title": "The basin",
+      "description": "A small basin with more water arrangements than its size suggests.",
+      "mapView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.4 },
+      "sections": [
+        {
+          "id": "basin",
+          "title": "One river, one canal, four villages",
+          "body": "The Sample River rises on a forested ridge in the north-west and flows south-east to the sea. Below the ridge, the **Sample Weir** diverts part of its flow into a main canal that serves the command area of the Sample Main Canal Scheme.\n\nFour villages share the water. **Ardena** sits at the head of the canal, **Belmora** in the middle reach and **Corvel** at the tail end. **Dunhal**, on the upland ridge, is not served by the canal at all and depends on a spring and a brook. A town utility takes raw water from the river just below the weir for a piped network outside the basin.",
+          "mapView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.6 },
+          "images": [
+            { "src": "/media/sample/hero-basin.svg", "caption": "Rice fields in the command area (placeholder illustration, synthetic example)" }
+          ]
+        },
+        {
+          "id": "method",
+          "title": "How the arrangements were recorded",
+          "body": "Each point on the map is a **tenure record**: one arrangement through which a group of users gains access to water, classified on the FAO water tenure typology. A record states who uses the water, for what, where, in which season, and on what terms.\n\nEvery record cites its sources by code (for example an interview line or a page of an agency record) and carries a confidence grade: *triangulated*, *corroborated*, *single-source*, *uncorroborated* or *contested*. Open the **Tenure** panel on the map to filter by type, use, security, village, scheme or season.",
+          "mapView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.2 },
+          "images": [
+            { "src": "/media/sample/mapping.svg", "caption": "Participatory mapping (placeholder illustration, synthetic example)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canal",
+      "title": "The weir and the canal",
+      "description": "Formal arrangements dominate at the head of the scheme.",
+      "mapView": { "longitude": -0.03, "latitude": 0.04, "zoom": 12.6 },
+      "sections": [
+        {
+          "id": "weir",
+          "title": "Agency control at the weir",
+          "body": "The basin agency operates the weir and the main intake gate. At the start of each season it sets an opening schedule for the canal. In the FAO typology this is **agency control**: an agency with statutory powers to abstract, allocate and operate the resource.\n\nThe town utility's intake below the weir is also recorded as agency control, with a different use code (urban drinking water).",
+          "mapView": { "longitude": -0.048, "latitude": 0.054, "zoom": 13.6 },
+          "images": [
+            { "src": "/media/sample/weir.svg", "caption": "The Sample Weir (placeholder illustration, synthetic example)" }
+          ]
+        },
+        {
+          "id": "scheme",
+          "title": "Land-based rights in the scheme",
+          "body": "Farmers with land in the command area hold a **land-based formal right**: the water follows the land through the scheme's allocation plan. Head-end farmers in Ardena report a reliable supply in both main seasons.\n\nTail-end farmers in Corvel hold the same entitlement on paper but say that water rarely reaches their blocks after the wet season. The record for Corvel therefore carries a lower perceived security than the type-level rating. The gap between legal and perceived security is visible on the map with the **Security gap** colouring in the Tenure panel.",
+          "mapView": { "longitude": 0.03, "latitude": 0.0, "zoom": 12.4 },
+          "images": [
+            { "src": "/media/sample/fields.svg", "caption": "Head-end fields (placeholder illustration, synthetic example)" },
+            { "src": "/media/sample/canal.svg", "caption": "Main canal and secondary gate (placeholder illustration, synthetic example)" }
+          ]
+        },
+        {
+          "id": "rotation",
+          "title": "A water user association's rotation",
+          "body": "On secondary canal S2 a registered water user association divides its share among members by a weekly rotation agreed at a seasonal meeting. This is **commonhold**: rights held in common by a defined group of users. The record notes that the association exists in practice and not only on paper, which the team checked in a focus group and a member interview.",
+          "mapView": { "longitude": 0.052, "latitude": 0.0, "zoom": 13.4 }
+        }
+      ]
+    },
+    {
+      "id": "tail",
+      "title": "At the tail end",
+      "description": "Where the canal runs dry, informal and unrecognised arrangements take over.",
+      "mapView": { "longitude": 0.09, "latitude": -0.05, "zoom": 13 },
+      "sections": [
+        {
+          "id": "pumps",
+          "title": "Renting pumps at the canal tail",
+          "body": "In the dry seasons tail-end farmers rent diesel pumps to lift water from the end of the main canal into their fields. Users report that no permit covers the pumping; the agency says it does not act on the pumps. The FAO typology classifies this as **informal** tenure.\n\nBecause informal arrangements can expose users to sanctions, the record is marked *aggregate only*: the map shows it at a position displaced by several hundred metres, and the public export leaves it out. The accounts also disagree on the number of pumps, so the record is graded *contested*.",
+          "mapView": { "longitude": 0.095, "latitude": -0.049, "zoom": 13.8 },
+          "images": [
+            { "src": "/media/sample/pump.svg", "caption": "Rented diesel pump (placeholder illustration, synthetic example)" }
+          ]
+        },
+        {
+          "id": "wetland",
+          "title": "Fishing and reeds",
+          "body": "Below the weir residents fish in the pool, and below the drain outlet households cut reeds in a small wetland for roofing and sale. Water law does not address either practice. The FAO typology calls such water-dependent livelihoods **unrecognised** tenure, and they are easily missed by an assessment that only follows permits and canals.",
+          "mapView": { "longitude": 0.1, "latitude": -0.06, "zoom": 13.6 },
+          "images": [
+            { "src": "/media/sample/wetland.svg", "caption": "Reed beds (placeholder illustration, synthetic example)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upland",
+      "title": "Above the canal",
+      "description": "Dunhal lives outside the scheme and governs its own water.",
+      "mapView": { "longitude": 0.08, "latitude": 0.078, "zoom": 13.4 },
+      "sections": [
+        {
+          "id": "spring",
+          "title": "A spring under customary stewardship",
+          "body": "A customary steward opens Ridge Spring for household use every morning and closes it once a year for a cleaning ceremony. Households contribute labour to the cleaning. This is **customary** tenure: rules attributed to ancestors and enforced by a customary office-holder. Whether any formal instrument recognizes the steward is a legal question that the record flags for separate assessment rather than answers.",
+          "mapView": { "longitude": 0.089, "latitude": 0.087, "zoom": 14.4 },
+          "images": [
+            { "src": "/media/sample/spring.svg", "caption": "Ridge Spring (placeholder illustration, synthetic example)" }
+          ]
+        },
+        {
+          "id": "wells",
+          "title": "Wells and gardens",
+          "body": "Lower down, households in Belmora draw drinking and washing water from shallow dug wells, and Dunhal households carry water from the brook to vegetable gardens. Both are **de minimis** uses: small, non-commercial and exercised without any formality.",
+          "mapView": { "longitude": 0.05, "latitude": 0.045, "zoom": 12.6 },
+          "images": [
+            { "src": "/media/sample/well.svg", "caption": "Household dug well (placeholder illustration, synthetic example)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "What the map does not show",
+      "description": "Protecting people comes before completeness.",
+      "mapView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.2 },
+      "sections": [
+        {
+          "id": "protection",
+          "title": "Generalized locations and missing names",
+          "body": "No record names a private person or quotes a respondent. Sensitive records are shown at a displaced position, linked photos are displaced with them, and the public CSV and GeoJSON exports include only records marked public.\n\nSome arrangements are not on the map at all because the sources gave no location. They remain in the catalogue that the map was built from. See the About page for the data protection rules this site follows.",
+          "mapView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.2 }
+        }
+      ]
+    }
+  ]
+}

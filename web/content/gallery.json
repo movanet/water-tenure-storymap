@@ -1,0 +1,12 @@
+{
+  "items": [
+    { "src": "/media/sample/weir.svg", "caption": "Diversion weir on the Sample River (placeholder illustration, synthetic example)" },
+    { "src": "/media/sample/canal.svg", "caption": "Main canal and secondary gate (placeholder illustration, synthetic example)" },
+    { "src": "/media/sample/pump.svg", "caption": "Rented diesel pump at the canal tail (placeholder illustration, synthetic example)" },
+    { "src": "/media/sample/spring.svg", "caption": "Ridge Spring above Dunhal (placeholder illustration, synthetic example)" },
+    { "src": "/media/sample/wetland.svg", "caption": "Reed beds in the Corvel wetland (placeholder illustration, synthetic example)" },
+    { "src": "/media/sample/well.svg", "caption": "Household dug well in Belmora (placeholder illustration, synthetic example)" },
+    { "src": "/media/sample/fields.svg", "caption": "Head-end rice fields in Ardena (placeholder illustration, synthetic example)" },
+    { "src": "/media/sample/mapping.svg", "caption": "Participatory mapping session (placeholder illustration, synthetic example)" }
+  ]
+}

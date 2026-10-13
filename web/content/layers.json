@@ -1,0 +1,112 @@
+{
+  "layers": [
+    {
+      "id": "watershed",
+      "name": "Basin boundary",
+      "type": "geojson",
+      "data": "/data/sample/watershed.geojson",
+      "visible": true,
+      "style": { "kind": "fill", "color": "#8b5cf6", "fillOpacity": 0.05, "lineWidth": 2 },
+      "popup": { "title": "name", "fields": [{ "key": "area_note", "label": "Note" }] }
+    },
+    {
+      "id": "irrigation-area",
+      "name": "Irrigation command area",
+      "type": "geojson",
+      "data": "/data/sample/irrigation-area.geojson",
+      "visible": true,
+      "style": { "kind": "fill", "color": "#22c55e", "fillOpacity": 0.15, "lineWidth": 1 },
+      "popup": { "title": "name", "fields": [{ "key": "scheme", "label": "Scheme" }] }
+    },
+    {
+      "id": "villages",
+      "name": "Villages",
+      "type": "geojson",
+      "data": "/data/sample/villages.geojson",
+      "visible": true,
+      "style": { "kind": "fill", "color": "#f59e0b", "fillOpacity": 0.18, "lineWidth": 1.5 },
+      "popup": {
+        "title": "name",
+        "fields": [
+          { "key": "position", "label": "Position" },
+          { "key": "note", "label": "Note" }
+        ]
+      }
+    },
+    {
+      "id": "rivers",
+      "name": "Rivers",
+      "type": "geojson",
+      "data": "/data/sample/rivers.geojson",
+      "visible": true,
+      "style": { "kind": "line", "color": "#0ea5e9", "lineWidth": 3 },
+      "popup": { "title": "name", "fields": [{ "key": "kind", "label": "Kind" }] }
+    },
+    {
+      "id": "canals",
+      "name": "Canals",
+      "type": "geojson",
+      "data": "/data/sample/canals.geojson",
+      "visible": true,
+      "style": {
+        "kind": "line",
+        "color": "#10b981",
+        "lineWidth": 2,
+        "colorBy": {
+          "field": "level",
+          "values": { "primary": "#047857", "secondary": "#10b981", "community": "#84cc16" }
+        }
+      },
+      "legend": [
+        { "color": "#047857", "label": "Main canal" },
+        { "color": "#10b981", "label": "Secondary canal" },
+        { "color": "#84cc16", "label": "Community channel" }
+      ],
+      "popup": { "title": "name", "fields": [{ "key": "level", "label": "Level" }] }
+    },
+    {
+      "id": "structures",
+      "name": "Water infrastructure",
+      "type": "geojson",
+      "data": "/data/sample/structures.geojson",
+      "visible": true,
+      "style": {
+        "kind": "circle",
+        "color": "#ef4444",
+        "radius": 6,
+        "colorBy": {
+          "field": "type",
+          "values": {
+            "weir": "#b91c1c",
+            "gate": "#ef4444",
+            "outlet": "#f97316",
+            "spring": "#0891b2",
+            "tank": "#6366f1",
+            "intake": "#0f766e"
+          }
+        }
+      },
+      "popup": {
+        "title": "name",
+        "fields": [
+          { "key": "type", "label": "Type" },
+          { "key": "description", "label": "Description" }
+        ]
+      }
+    },
+    {
+      "id": "tenure-records",
+      "name": "Tenure records",
+      "type": "tenure-records",
+      "visible": true,
+      "style": { "color": "#0d9ed3" }
+    },
+    {
+      "id": "field-photos",
+      "name": "Field photos",
+      "type": "field-photos",
+      "visible": true,
+      "style": { "color": "#eab308" }
+    }
+  ]
+}

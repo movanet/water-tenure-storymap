@@ -1,0 +1,33 @@
+# Caddy reverse proxy for Water Tenure Storymap.
+#
+# Copy to /etc/caddy/Caddyfile, replace tenure.example.org with your domain
+# (its DNS A/AAAA record must point at this server), then:
+#   sudo systemctl reload caddy
+# Caddy obtains and renews the TLS certificate automatically.
+#
+# The ports match the defaults in .env.example (WEB_PORT=3000, API_PORT=8000),
+# published on 127.0.0.1 by docker-compose.yml.
+
+tenure.example.org {
+	encode zstd gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		-Server
+	}
+
+	# Tenure engine API: records, vocabulary, statistics, exports, photos.
+	handle /api/* {
+		request_body {
+			max_size 20MB
+		}
+		reverse_proxy 127.0.0.1:8000
+	}
+
+	# Everything else: the web app.
+	handle {
+		reverse_proxy 127.0.0.1:3000
+	}
+}

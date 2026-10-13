@@ -1,0 +1,102 @@
+{
+  "id": "village-notes",
+  "order": 2,
+  "title": "Village notes",
+  "subtitle": "Short notes on the four villages of the Sample River Basin",
+  "author": "Sample field team",
+  "date": "2026",
+  "thumbnail": "/media/sample/mapping.svg",
+  "notice": "Synthetic example, not real data. Ardena, Belmora, Corvel and Dunhal are fictional villages.",
+  "mapView": { "longitude": 0.015, "latitude": 0.012, "zoom": 11.4 },
+  "chapters": [
+    {
+      "id": "ardena",
+      "title": "Ardena",
+      "description": "Head end of the main canal.",
+      "mapView": { "longitude": -0.035, "latitude": 0.03, "zoom": 13.2 },
+      "sections": [
+        {
+          "id": "ardena-supply",
+          "title": "A piped supply on an expired permit",
+          "body": "The village government runs a small piped supply from the river to a storage tank. The abstraction permit shown to the team had expired, yet everyone involved treats the use as lawful. The FAO typology calls this **assumed** tenure: a formal right wrongly assumed to exist because of the official character of the user.",
+          "mapView": { "longitude": -0.03, "latitude": 0.036, "zoom": 14.2 }
+        },
+        {
+          "id": "ardena-fishing",
+          "title": "Fishing below the weir",
+          "body": "Residents fish in the pool below the weir throughout the year. No water or fisheries rule addresses the practice, so it is recorded as **unrecognised** tenure.",
+          "mapView": { "longitude": -0.04, "latitude": 0.05, "zoom": 14.2 }
+        }
+      ]
+    },
+    {
+      "id": "belmora",
+      "title": "Belmora",
+      "description": "Middle reach of the main canal.",
+      "mapView": { "longitude": 0.03, "latitude": 0.012, "zoom": 13 },
+      "sections": [
+        {
+          "id": "belmora-wells",
+          "title": "Dug wells",
+          "body": "Most households draw water from shallow dug wells without a permit or registration. Only one source describes the practice, so the record is graded *single-source* until a second source confirms it.",
+          "mapView": { "longitude": 0.026, "latitude": 0.016, "zoom": 14 },
+          "images": [
+            { "src": "/media/sample/well.svg", "caption": "Household dug well (placeholder illustration, synthetic example)" }
+          ]
+        },
+        {
+          "id": "belmora-permit",
+          "title": "A brick works with a permit",
+          "body": "A brick works holds a long-term abstraction permit for its borehole: a **modern permit-based** right, separate from land. It is the only record of this type in the sample.",
+          "mapView": { "longitude": 0.02, "latitude": 0.02, "zoom": 14 }
+        }
+      ]
+    },
+    {
+      "id": "corvel",
+      "title": "Corvel",
+      "description": "Tail end of the main canal.",
+      "mapView": { "longitude": 0.085, "latitude": -0.042, "zoom": 13 },
+      "sections": [
+        {
+          "id": "corvel-tail",
+          "title": "Water that arrives late",
+          "body": "Corvel's farmers hold land-based rights in the scheme but report that water rarely reaches them after the wet season. See the main story for the pumping that fills the gap.",
+          "mapView": { "longitude": 0.082, "latitude": -0.038, "zoom": 13.8 }
+        },
+        {
+          "id": "corvel-wetland",
+          "title": "The wetland",
+          "body": "Households cut reeds in the wetland below the drain outlet. The record is marked *aggregate only*, so its position on the map is generalized.",
+          "mapView": { "longitude": 0.1, "latitude": -0.06, "zoom": 13.8 },
+          "images": [
+            { "src": "/media/sample/wetland.svg", "caption": "Reed beds (placeholder illustration, synthetic example)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dunhal",
+      "title": "Dunhal",
+      "description": "Upland hamlet, not served by the canal.",
+      "mapView": { "longitude": 0.078, "latitude": 0.076, "zoom": 13.4 },
+      "sections": [
+        {
+          "id": "dunhal-rotation",
+          "title": "Turns on the spring channel",
+          "body": "Upland farmers take turns on the channel below Ridge Spring in an order set by the customary steward. The rotation is recorded as **customary** tenure, separate from the household use of the spring itself.",
+          "mapView": { "longitude": 0.08, "latitude": 0.079, "zoom": 14.4 },
+          "images": [
+            { "src": "/media/sample/spring.svg", "caption": "Ridge Spring (placeholder illustration, synthetic example)" }
+          ]
+        },
+        {
+          "id": "dunhal-pumps",
+          "title": "An unregistered pump group",
+          "body": "A group of farmers shares one pump on Ridge Brook. The group is not registered and has no legal personality, so it cannot hold a permit in its own name. The FAO typology calls this **impossible** tenure: a formal right is legally impossible for the presumed holder.",
+          "mapView": { "longitude": 0.07, "latitude": 0.066, "zoom": 14.4 }
+        }
+      ]
+    }
+  ]
+}

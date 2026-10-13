@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it as below.
+title: Water Tenure Storymap
+version: 1.0.0
+date-released: 2026-10-13
+abstract: >-
+  Water Tenure Storymap is open-source software for publishing a water tenure
+  assessment as an interactive map and a set of map-driven stories. It
+  consists of a tenure engine (a FastAPI service that stores tenure records
+  classified on the FAO water tenure typology and geotagged field photos,
+  validates them against a controlled vocabulary, and generalizes the location
+  of sensitive records) and a configurable Next.js storymap whose site
+  settings, map layers, stories and gallery are content files. It ships with a
+  synthetic example basin and an importer for water tenure catalogues. The
+  software was vibe-coded: the code and documentation were written by AI coding
+  agents (Claude Code with Anthropic Claude models, operated as CRPG's agent
+  "Mobot") under the orchestration of Mohamad Mova Al'Afghani, who set the
+  goals, the method and the domain rules and directed and reviewed the work.
+type: software
+authors:
+  - family-names: "Al'Afghani"
+    given-names: Mohamad Mova
+    affiliation: CRPG - Center for Regulation, Policy and Governance
+  - name: CRPG - Center for Regulation, Policy and Governance
+repository-code: https://github.com/movanet/water-tenure-storymap
+url: https://tenure.crpg.info
+license: MIT
+keywords:
+  - water tenure
+  - water governance
+  - FAO water tenure typology
+  - storymap
+  - web mapping
+  - MapLibre
+  - FastAPI
+  - Next.js
+  - data protection
+  - vibe coding

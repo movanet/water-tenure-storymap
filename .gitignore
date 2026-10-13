@@ -1,0 +1,28 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+web/next-env.d.ts
+*.tsbuildinfo
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local configuration and data: never commit secrets or databases
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+/data/
+/seed/
+
+# OS and editor files
+.DS_Store
+Thumbs.db

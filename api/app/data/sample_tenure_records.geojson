@@ -1,0 +1,600 @@
+{
+ "type": "FeatureCollection",
+ "name": "sample_tenure_records",
+ "metadata": {
+  "note": "Synthetic example, not real data. Fictional Sample River Basin near Null Island."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.04,
+     0.034
+    ]
+   },
+   "properties": {
+    "title": "Head-end scheme irrigation in Ardena",
+    "tenure_type": "land_based_formal",
+    "use_type": "B2",
+    "village": "Ardena",
+    "actor_group": "farmer",
+    "di_scheme": "Sample Main Canal Scheme",
+    "season_relevance": [
+     "wet",
+     "dry1"
+    ],
+    "confidence": "triangulated",
+    "description": "Synthetic example, not real data. Farmers with land in the head-end blocks receive canal water under the scheme's seasonal allocation plan and report reliable supply in both main seasons.",
+    "source": "SAMPLE-FGD-01 p.2; SAMPLE-INT-03 l.40; SAMPLE-ADM-01 row 12 (synthetic source codes)",
+    "narrative_ref": "sample-basin#scheme"
+   },
+   "id": "sample-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       0.089207,
+       -0.038
+      ],
+      [
+       0.089111,
+       -0.035054
+      ],
+      [
+       0.087181,
+       -0.032819
+      ],
+      [
+       0.084508,
+       -0.031946
+      ],
+      [
+       0.082,
+       -0.031669
+      ],
+      [
+       0.079346,
+       -0.031593
+      ],
+      [
+       0.076612,
+       -0.032612
+      ],
+      [
+       0.075035,
+       -0.035115
+      ],
+      [
+       0.075207,
+       -0.038
+      ],
+      [
+       0.076177,
+       -0.040412
+      ],
+      [
+       0.077281,
+       -0.042719
+      ],
+      [
+       0.07915,
+       -0.04488
+      ],
+      [
+       0.082,
+       -0.045669
+      ],
+      [
+       0.084704,
+       -0.044527
+      ],
+      [
+       0.086512,
+       -0.042512
+      ],
+      [
+       0.087969,
+       -0.040473
+      ],
+      [
+       0.089207,
+       -0.038
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "title": "Tail-end scheme irrigation in Corvel",
+    "tenure_type": "land_based_formal",
+    "use_type": "B2",
+    "village": "Corvel",
+    "actor_group": "farmer",
+    "di_scheme": "Sample Main Canal Scheme",
+    "season_relevance": [
+     "wet"
+    ],
+    "confidence": "corroborated",
+    "description": "Synthetic example, not real data. Tail-end farmers hold the same land-based entitlement as head-end farmers but say water rarely reaches their blocks after the wet season.",
+    "source": "SAMPLE-FGD-02 p.4; SAMPLE-INT-07 l.15 (synthetic source codes)",
+    "narrative_ref": "sample-basin#scheme",
+    "perceived_security": 4
+   },
+   "id": "sample-002"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.05,
+     0.057
+    ]
+   },
+   "properties": {
+    "title": "Basin agency operation of Sample Weir",
+    "tenure_type": "agency_control",
+    "use_type": "B2",
+    "village": "Ardena",
+    "actor_group": "agency",
+    "di_scheme": "Sample Main Canal Scheme",
+    "season_relevance": [
+     "wet",
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "triangulated",
+    "description": "Synthetic example, not real data. The basin agency operates the weir and the main intake gate and sets the opening schedule each season.",
+    "source": "SAMPLE-ADM-02 p.1; SAMPLE-INT-01 l.8; SAMPLE-OBS-01 (synthetic source codes)",
+    "narrative_ref": "sample-basin#weir"
+   },
+   "id": "sample-003"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.01,
+     -0.019
+    ]
+   },
+   "properties": {
+    "title": "Town water utility intake on the Sample River",
+    "tenure_type": "agency_control",
+    "use_type": "A1",
+    "village": "Belmora",
+    "actor_group": "water_utility",
+    "di_scheme": "none",
+    "season_relevance": [
+     "wet",
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "corroborated",
+    "description": "Synthetic example, not real data. A town utility abstracts raw water below the weir for its piped network outside the basin.",
+    "source": "SAMPLE-ADM-03 p.2; SAMPLE-INT-02 l.31 (synthetic source codes)"
+   },
+   "id": "sample-004"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.05,
+     0.0
+    ]
+   },
+   "properties": {
+    "title": "Water user association rotation on canal S2",
+    "tenure_type": "commonhold",
+    "use_type": "B2",
+    "village": "Belmora",
+    "actor_group": "water_user_association",
+    "di_scheme": "Sample Main Canal Scheme",
+    "season_relevance": [
+     "dry1"
+    ],
+    "confidence": "corroborated",
+    "description": "Synthetic example, not real data. A registered water user association divides the S2 share among its members by a weekly rotation agreed at a seasonal meeting.",
+    "source": "SAMPLE-FGD-03 p.1; SAMPLE-INT-05 l.22 (synthetic source codes)"
+   },
+   "id": "sample-005"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.026,
+     0.016
+    ]
+   },
+   "properties": {
+    "title": "Household dug wells in Belmora",
+    "tenure_type": "de_minimis",
+    "use_type": "A3",
+    "village": "Belmora",
+    "actor_group": "community",
+    "di_scheme": "none",
+    "season_relevance": [
+     "wet",
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "single-source",
+    "description": "Synthetic example, not real data. Most households draw drinking and washing water from shallow dug wells without any permit or registration.",
+    "source": "SAMPLE-OBS-02 (synthetic source codes)"
+   },
+   "id": "sample-006"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.072,
+     0.072
+    ]
+   },
+   "properties": {
+    "title": "Garden watering from Ridge Brook in Dunhal",
+    "tenure_type": "de_minimis",
+    "use_type": "B4",
+    "village": "Dunhal",
+    "actor_group": "farmer",
+    "di_scheme": "none",
+    "season_relevance": [
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "single-source",
+    "description": "Synthetic example, not real data. Households carry or hose small quantities from the brook to vegetable gardens.",
+    "source": "SAMPLE-INT-08 l.5 (synthetic source codes)"
+   },
+   "id": "sample-007"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.089,
+     0.087
+    ]
+   },
+   "properties": {
+    "title": "Ridge Spring under customary stewardship",
+    "tenure_type": "customary",
+    "use_type": "A3",
+    "village": "Dunhal",
+    "actor_group": "community",
+    "di_scheme": "Ridge Spring Scheme",
+    "season_relevance": [
+     "wet",
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "triangulated",
+    "description": "Synthetic example, not real data. A customary steward opens the spring for household use each morning and closes it during an annual cleaning ceremony.",
+    "source": "SAMPLE-FGD-04 p.2; SAMPLE-INT-09 l.12; SAMPLE-OBS-03 (synthetic source codes)",
+    "narrative_ref": "sample-basin#spring"
+   },
+   "id": "sample-008"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.08,
+     0.079
+    ]
+   },
+   "properties": {
+    "title": "Customary rotation on the Ridge Spring channel",
+    "tenure_type": "customary",
+    "use_type": "B3",
+    "village": "Dunhal",
+    "actor_group": "farmer",
+    "di_scheme": "Ridge Spring Scheme",
+    "season_relevance": [
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "corroborated",
+    "description": "Synthetic example, not real data. Upland farmers take turns on the spring channel in an order set by the steward.",
+    "source": "SAMPLE-FGD-04 p.3; SAMPLE-INT-10 l.4 (synthetic source codes)",
+    "narrative_ref": "village-notes#dunhal-rotation"
+   },
+   "id": "sample-009"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.095,
+     -0.049
+    ]
+   },
+   "properties": {
+    "title": "Diesel pumping from the main canal tail",
+    "tenure_type": "informal",
+    "use_type": "B3",
+    "village": "Corvel",
+    "actor_group": "farmer",
+    "di_scheme": "Sample Main Canal Scheme",
+    "season_relevance": [
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "contested",
+    "description": "Synthetic example, not real data. Tail-end farmers rent diesel pumps to lift water from the canal tail into their fields; users report no permit, and the agency says it does not act on the pumps.",
+    "source": "SAMPLE-INT-07 l.33; SAMPLE-INT-01 l.52 (synthetic source codes)",
+    "narrative_ref": "sample-basin#pumps"
+   },
+   "id": "sample-010"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.036,
+     0.006
+    ]
+   },
+   "properties": {
+    "title": "Night-time canal-bank breach for irrigation",
+    "tenure_type": "informal",
+    "use_type": "B3",
+    "village": "Belmora",
+    "actor_group": "farmer",
+    "di_scheme": "Sample Main Canal Scheme",
+    "season_relevance": [
+     "dry2"
+    ],
+    "confidence": "uncorroborated",
+    "description": "Synthetic example, not real data. One respondent reports that some farmers open a breach in the canal bank at night during the second dry season.",
+    "source": "SAMPLE-INT-06 l.71 (synthetic source codes)"
+   },
+   "id": "sample-011"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.03,
+     0.036
+    ]
+   },
+   "properties": {
+    "title": "Village piped supply with an expired permit",
+    "tenure_type": "assumed",
+    "use_type": "A2",
+    "village": "Ardena",
+    "actor_group": "village_government",
+    "di_scheme": "none",
+    "season_relevance": [
+     "wet",
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "single-source",
+    "description": "Synthetic example, not real data. The village government runs a piped supply from the river; the abstraction permit shown to the team had expired, and all parties treat the use as lawful.",
+    "source": "SAMPLE-ADM-04 p.1 (synthetic source codes)"
+   },
+   "id": "sample-012"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.07,
+     0.066
+    ]
+   },
+   "properties": {
+    "title": "Unregistered pump group in Dunhal",
+    "tenure_type": "impossible",
+    "use_type": "B3",
+    "village": "Dunhal",
+    "actor_group": "farmer",
+    "di_scheme": "none",
+    "season_relevance": [
+     "dry1"
+    ],
+    "confidence": "corroborated",
+    "description": "Synthetic example, not real data. A farmer pump group shares a pump on the brook but is not registered, so it cannot hold a permit in its own name.",
+    "source": "SAMPLE-FGD-05 p.2; SAMPLE-INT-08 l.19 (synthetic source codes)",
+    "narrative_ref": "village-notes#dunhal-pumps",
+    "perceived_security": 3
+   },
+   "id": "sample-013"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.04,
+     0.05
+    ]
+   },
+   "properties": {
+    "title": "Reservoir fishing below Sample Weir",
+    "tenure_type": "unrecognised",
+    "use_type": "G1",
+    "village": "Ardena",
+    "actor_group": "community",
+    "di_scheme": "none",
+    "season_relevance": [
+     "wet",
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "corroborated",
+    "description": "Synthetic example, not real data. Residents fish in the pool below the weir; no water or fisheries rule addresses the practice.",
+    "source": "SAMPLE-OBS-01; SAMPLE-INT-03 l.88 (synthetic source codes)"
+   },
+   "id": "sample-014"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       0.108575,
+       -0.06
+      ],
+      [
+       0.108455,
+       -0.056498
+      ],
+      [
+       0.106402,
+       -0.053598
+      ],
+      [
+       0.103191,
+       -0.052297
+      ],
+      [
+       0.1,
+       -0.052575
+      ],
+      [
+       0.097379,
+       -0.053673
+      ],
+      [
+       0.095088,
+       -0.055088
+      ],
+      [
+       0.092921,
+       -0.057068
+      ],
+      [
+       0.091425,
+       -0.06
+      ],
+      [
+       0.091545,
+       -0.063502
+      ],
+      [
+       0.093598,
+       -0.066402
+      ],
+      [
+       0.096809,
+       -0.067703
+      ],
+      [
+       0.1,
+       -0.067425
+      ],
+      [
+       0.102621,
+       -0.066327
+      ],
+      [
+       0.104912,
+       -0.064912
+      ],
+      [
+       0.107079,
+       -0.062932
+      ],
+      [
+       0.108575,
+       -0.06
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "title": "Reed harvesting in the Corvel wetland",
+    "tenure_type": "unrecognised",
+    "use_type": "G2",
+    "village": "Corvel",
+    "actor_group": "community",
+    "di_scheme": "none",
+    "season_relevance": [
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "single-source",
+    "description": "Synthetic example, not real data. Households cut reeds in the wetland below the drain outlet for roofing and sale.",
+    "source": "SAMPLE-INT-11 l.9 (synthetic source codes)",
+    "narrative_ref": "village-notes#corvel-wetland"
+   },
+   "id": "sample-015"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.044,
+     0.046
+    ]
+   },
+   "properties": {
+    "title": "Planned minimum flow below Sample Weir",
+    "tenure_type": "reserves_minimum_flow",
+    "use_type": "E1",
+    "village": "Ardena",
+    "actor_group": "agency",
+    "di_scheme": "none",
+    "season_relevance": [
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "single-source",
+    "description": "Synthetic example, not real data. A draft basin plan proposes a minimum release below the weir in the dry seasons; it is not yet in force.",
+    "source": "SAMPLE-ADM-05 p.14 (synthetic source codes)"
+   },
+   "id": "sample-016"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     0.02,
+     0.02
+    ]
+   },
+   "properties": {
+    "title": "Brick works abstraction permit in Belmora",
+    "tenure_type": "modern_permit",
+    "use_type": "C",
+    "village": "Belmora",
+    "actor_group": "company",
+    "di_scheme": "none",
+    "season_relevance": [
+     "wet",
+     "dry1",
+     "dry2"
+    ],
+    "confidence": "single-source",
+    "description": "Synthetic example, not real data. A brick works holds a long-term abstraction permit for a borehole.",
+    "source": "SAMPLE-ADM-06 p.1 (synthetic source codes)"
+   },
+   "id": "sample-017"
+  }
+ ]
+}
